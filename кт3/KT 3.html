@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WINDOWS 10</title>
+    <style>
+        body{
+            background-color: rgb(255, 255, 255);
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .start-button {
+            color: white;
+            font-size: 24px;
+            cursor: pointer;
+        }
+        .user-info {
+            color: white;
+            display: flex;
+            align-items: center;
+        }
+
+        .user-info span {
+            margin-right: 5px;
+        }
+        .container{
+            display: flex;
+            gap: 60px;
+        
+        }
+        .column{
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            width: 254px;
+            height: 100%;
+        }
+        .element{
+            width: 120px;
+            height: 120px;
+            border: 1px solid #000;
+            flex-grow: 0;
+        }
+        .big{
+            width: 254px;
+        }
+        .verybig{
+            width: 254px;
+            height: 254px;
+        }
+        .little{
+            width: 54px;
+            height: 54px;
+        }
+        .blue{
+            background-color: rgb(255, 0, 221);
+        }
+        .green{
+            background-color: rgb(252, 2, 127);
+        }
+        .orange{
+            background-color: rgb(235, 129, 155);
+        }
+        .red{
+            background-color: rgb(201, 65, 65);
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<header>
+    <div class="start-button">Start</div>
+        <div class="user-info">
+            <span>User</span>
+            <i class="fas fa-user-circle"></i>
+        </div>
+</header>
+<body>
+    <div class="container">
+        <div class="column">
+            <div class="element big orange"></div>
+            <div class="element big red"></div>
+            <div class="element verybig green"></div>
+        </div>
+        <div class="column">
+            <div class="element big blue"></div>
+            <div class="element red"></div>
+            <div class="element orange"></div>
+            <div class="element big green"></div>
+            <div class="element red"></div>
+            <div class="element blue"></div>
+
+        </div>
+        <div class="column">
+            <div class="element green"></div>
+            <div class="element blue"></div>
+            <div class="element verybig red"></div>
+            <div class="element big orange"></div>
+    </div>
+    <div class="column">
+        <div class="element verybig green"></div>
+        <div class="element big red"></div>
+        <div class="element blue"></div>
+        <div class="element red"></div>
+    </div>
+    <div class="column">
+        <div class="element big orange"></div>
+        <div class="element verybig red"></div>
+        <div class="element big blue"></div>
+    </div>
+    <div class="column">
+        <div class="element big orange"></div>
+        <div class="element verybig red"></div>
+        <div class="element blue"></div>
+        <div class="element green"></div>
+    </div>
+    <div class="column">
+        <div class="element big red"></div>
+        <div class="element verybig orange"></div>
+        <div class="element blue"></div>
+        <div class="element blue"></div>
+    </div>
+</body>
+</html>
